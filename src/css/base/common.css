@@ -1,21 +1,21 @@
 /* #region Clear Styles */
 :root {
-    --deep-black-greenish: #040306;
-    --deep-navy-black: #0E1823;
-    --dark-turquoise: #1B414B;
-    --near-white: #FBFBFB;
-    --font-family: "Inter", sans-serif;
+  --deep-black-greenish: #040306;
+  --deep-navy-black: #0e1823;
+  --dark-turquoise: #1b414b;
+  --near-white: #fbfbfb;
+  --font-family: 'Inter', sans-serif;
 }
 
 html {
-    scrollbar-gutter: stable;
+  scrollbar-gutter: stable;
 }
 
 body {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    letter-spacing: 0.02em;
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 0.02em;
 }
 
 h1,
@@ -26,114 +26,111 @@ h5,
 h6,
 p,
 ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 ul,
 ol {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
-    outline: none;
+  text-decoration: none;
+  color: inherit;
+  outline: none;
 }
 
 button {
-    all: unset;
-    cursor: pointer;
-    color: currentColor;
+  all: unset;
+  cursor: pointer;
+  color: currentColor;
 }
 
 input,
 textarea,
 select {
-    font: inherit;
-    border: none;
-    outline: none;
-    background: none;
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 img,
 video {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 /* #endregion */
 /* #region Container */
 .container {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
 }
 
 /* Container Mobile 375px */
 @media screen and (min-width: 375px) {
-    .container {
-        width: 375px;
-    }
+  .container {
+    width: 375px;
+  }
 }
 
 /* Container Tablet 768px */
 @media screen and (min-width: 768px) {
-    .container {
-        width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
 /* Container Desktop 1280px */
 @media screen and (min-width: 1280px) {
-    .container {
-        width: 1280px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
+  .container {
+    width: 1280px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
 /* Container Desktop 1440px */
 @media screen and (min-width: 1440px) {
-    .container {
-        width: 1440px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
+  .container {
+    width: 1440px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
 /* #endregion */
 /* #region Тимчасово приховувати елементи */
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* #endregion */
-
-
