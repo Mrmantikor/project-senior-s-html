@@ -150,6 +150,10 @@
 
 /* Container Desktop 1280px */
 @media screen and (min-width: 1280px) {
+    .aboutus {
+        margin-top: -42px;
+        padding-bottom: 120px;
+    }
     .aboutus-div {
         display: flex;
         flex-wrap: wrap;
