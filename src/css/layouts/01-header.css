@@ -98,7 +98,7 @@
 .console-mobile-menu-links:hover,
 .console-mobile-menu-links:focus,
 .console-mobile-menu-links:active {
-    color: rgba(253, 146, 34);
+    color: var(--near-white);
     background-color: rgba(27, 65, 75, 0.5);
 }
 
