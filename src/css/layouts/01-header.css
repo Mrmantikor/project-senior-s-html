@@ -171,7 +171,7 @@
 .header-central-menu-button-links:hover,
 .header-central-menu-button-links:focus,
 .header-central-menu-button-links:active {
-    color: rgba(253, 146, 34);
+    color: var(--near-white);
     background-color: var(--dark-turquoise);
     transition: color 250ms linear, background-color 250ms linear;
 }
