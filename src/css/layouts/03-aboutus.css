@@ -4,9 +4,8 @@
 
 .aboutus-div {
     background-color: var(--near-white);
-    border-radius: 30px;
+    border-radius: 24px;
     max-width: 335px;
-    overflow: hidden;
 }
 
 .aboutus-wrap {
@@ -53,18 +52,18 @@
         max-width: 704px;
     }
     .aboutus-wrap {
-        padding: 50px 32px 0
+        padding: 50px 32px 0;
     }
 
     .aboutus-title {
         max-width: 536px;
         font-size: 48px;
-        margin-bottom: 50px
+        margin-bottom: 50px;
     }
 
     .aboutus-subtitle {
         font-size: 23px;
-        max-width: 389px
+        max-width: 389px;
     }
 
     .aboutus-under-text {
