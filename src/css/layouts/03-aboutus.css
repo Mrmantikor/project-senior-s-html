@@ -1,5 +1,4 @@
 .aboutus {
-    margin-top: -59px;
     padding-bottom: 40px;
 }
 
@@ -25,7 +24,6 @@
     display: grid;
     gap: 20px;
     max-width: 295px;
-    max-height: 176px;
     margin: 0px 20px 20px 20px;
 
 }
@@ -121,7 +119,6 @@
 
     .aboutus-title {
         max-width: 536px;
-        max-height: 144px;
         font-size: 48px;
     }
 
