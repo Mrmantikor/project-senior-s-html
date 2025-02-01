@@ -3,29 +3,24 @@
 }
 
 .aboutus-div {
-    display: grid;
-    justify-content: center;
     background-color: var(--near-white);
-    border-radius: 28px;
-    max-width: 333px;
-    max-height: 750px;
+    border-radius: 30px;
+    max-width: 335px;
+    overflow: hidden;
+}
+
+.aboutus-wrap {
+    padding: 40px 20px 0
+
 }
 
 .aboutus-title {
-    padding: 40px 20px;
     font-weight: 500;
     font-size: 28px;
-    line-height: 100%;
+    line-height: 1;
     letter-spacing: -0.02em;
     color: var(--dark-turquoise);
-}
-
-.aboutus-div-text {
-    display: grid;
-    gap: 20px;
-    max-width: 295px;
-    margin: 0px 20px 20px 20px;
-
+    margin-bottom: 40px;
 }
 
 .aboutus-subtitle {
@@ -34,6 +29,7 @@
     line-height: 1;
     letter-spacing: -0.02em;
     color: var(--dark-turquoise);
+    margin-bottom: 20px;
 
 }
 
@@ -44,162 +40,72 @@
     letter-spacing: -0.02em;
     color: var(--deep-black-greenish);
     opacity: 0.4;
+    margin-bottom: 40px
 }
 
-.aboutus-img {
-    max-width: 335px;
-    min-height: 395px;
-    border-radius: 24px;
-}
 
-@media screen and (min-width: 300px) and (max-width: 374px) {
-    .aboutus-div {
-        display: grid;
-        justify-content: center;
-        background-color: var(--near-white);
-        border-radius: 28px;
-        max-width: 333px;
-        max-height: 675px;
-    }
-
-    .aboutus-title {
-        padding: 10px;
-        font-weight: 500;
-        font-size: 28px;
-        line-height: 100%;
-        letter-spacing: -0.02em;
-        color: var(--dark-turquoise);
-    }
-
-    .aboutus-div-text {
-        display: grid;
-        gap: 20px;
-        max-width: 295px;
-        max-height: 176px;
-        margin: 5px;
-
-    }
-
-    .aboutus-subtitle {
-        font-weight: 400;
-        font-size: 1rem;
-        line-height: 1;
-        letter-spacing: -0.02em;
-        color: var(--dark-turquoise);
-
-    }
-
-    .aboutus-under-text {
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.16667;
-        letter-spacing: -0.02em;
-        color: var(--deep-black-greenish);
-        opacity: 0.4;
-    }
-
-    .aboutus-img {
-        width: 100%;
-        border-radius: 24px;
-    }
-}
-
-/* Container Tablet 768px */
 @media screen and (min-width: 768px) {
     .aboutus {
         padding-bottom: 75px;
     }
 
     .aboutus-div {
-        display: grid;
-        justify-content: center;
-        max-width: 702px;
-        max-height: 900px;
+        max-width: 704px;
+    }
+    .aboutus-wrap {
+        padding: 50px 32px 0
     }
 
     .aboutus-title {
         max-width: 536px;
         font-size: 48px;
-    }
-
-    .aboutus-div-text {
-        max-width: 389px;
-        max-height: 187px;
-        margin: 80px 20px 20px 20px;
-
+        margin-bottom: 50px
     }
 
     .aboutus-subtitle {
         font-size: 23px;
+        max-width: 389px
     }
 
     .aboutus-under-text {
         font-size: 13px;
         line-height: 1.15;
-    }
-
-    .aboutus-img {
-        max-width: 704px;
-        min-height: 470px;
-        border-radius: 24px;
+        max-width: 389px;
+        margin-bottom: 50px;
     }
 }
 
 /* Container Desktop 1280px */
 @media screen and (min-width: 1280px) {
-    .aboutus {
-        margin-top: -35px;
-        padding-bottom: 120px;
-    }
     .aboutus-div {
+        max-width: 1180px;
+    }
+    .aboutus-wrap {
+        padding: 50px 50px 0;
         display: flex;
-        flex-wrap: wrap;
-        gap: 0 189px;
-        max-width: 1178px;
-        max-height: 775px;
+        justify-content: space-between;
     }
 
     .aboutus-title {
-        padding: 50px 0 0 50px;
         max-width: 537px;
-        max-height: 144px;
     }
 
-    .aboutus-div-text {
-        margin: 50px 50px 100px 0;
+    .about-us-subtitle {
         max-width: 354px;
-        max-height: 210px;
+    }
+    .aboutus-under-text {
+        max-width: 354px;
+        margin-bottom: 100px;
     }
 
-    .aboutus-img {
-        max-width: 1180px;
-    }
 }
 
 /* Container Desktop 1440px */
 @media screen and (min-width: 1440px) {
     .aboutus-div {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0 299px;
-        max-width: 1338px;
-    }
-
-    .aboutus-title {
-        padding: 50px 0 0 50px;
-        max-width: 537px;
-        max-height: 144px;
-    }
-
-    .aboutus-div-text {
-        margin: 50px 50px 100px 0;
-        max-width: 354px;
-        max-height: 210px;
-    }
-
-    .aboutus-img {
         max-width: 1340px;
     }
+
 }
 
 /* #endregion */
