@@ -102,7 +102,7 @@
 .console-mobile-menu-links:focus-visible,
 .console-mobile-menu-links:active {
     color: var(--near-white);
-    background-color: rgba(27, 65, 75, 0.5);
+    background-color: var(--deep-black-greenish);
 }
 
 .svg-console-mobile-menu {
@@ -113,13 +113,13 @@
 }
 
 .mobile-menu-svg {
-    fill: var(--near-white);
+    fill: var(--near-white)
 }
 
 .mobile-menu-svg:hover,
 .mobile-menu-svg:focus-visible,
 .mobile-menu-svg:active {
-    fill: rgba(253, 146, 34);
+    fill: rgba(251, 251, 251, 0.8);
 }
 
 /* #endregion */
@@ -183,7 +183,7 @@
 .header-mobile-svg:hover,
 .header-mobile-svg:active,
 .header-mobile-svg:focus {
-    fill: rgba(253, 146, 34);
+    fill: #062730;
 }
 
 @media screen and (max-width: 767px) {
