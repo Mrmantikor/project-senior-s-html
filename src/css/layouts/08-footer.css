@@ -133,7 +133,7 @@
   padding: 15px 12px;
   background-color: rgba(251, 251, 251, 0.3);
   border-radius: 8px;
-  transition: color 0.25s linear;
+  transition: color 0.25s linear, background-color 0.25s linear;
 }
 
 @media screen and (min-width: 768px) {
@@ -162,7 +162,7 @@
 
 .footer-social-icon {
   fill: var(--near-white);
-  transition: color 0.25s linear;
+  transition: fill 0.25s linear;
 }
 
 .footer-social-icon:hover,
