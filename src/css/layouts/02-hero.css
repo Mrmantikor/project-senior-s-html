@@ -63,7 +63,7 @@
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .section-hero {
-      min-height: 1624px;
+      min-height: 812px;
       background-image: url('../../img/02-hero/mob-hero@2x.jpg');
     }
   }
