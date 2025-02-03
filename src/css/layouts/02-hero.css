@@ -103,7 +103,7 @@
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .section-hero {
-      min-height: 1924px;
+      min-height: 962px;
       background-image: url('../../img/02-hero/tab-hero@2x.jpg');
     }
   }
