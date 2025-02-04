@@ -1,9 +1,12 @@
 /* #region 02 Ярослав Богданов*/
 .section-hero {
   display: grid;
-  max-width: 100%;
+  max-width: 375px;
   background-position: center;
   background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
 }
 
 .hero-div {
@@ -72,6 +75,7 @@
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .section-hero {
     min-height: 962px;
+    max-width: 768px;
     margin-top: -88px;
     background-image: url('../../img/02-hero/tab-hero.jpg');
   }
@@ -112,6 +116,7 @@
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
   .section-hero {
     min-height: 800px;
+    max-width: 1280px;
     margin-top: -88px;
     background-image: url('../../img/02-hero/desk-1280-hero.jpg');
   }
@@ -152,7 +157,7 @@
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .section-hero {
-      min-height: 1600px;
+      min-height: 800px;
       background-image: url('../../img/02-hero/desk-1280-hero@2x.jpg');
     }
   }
@@ -161,6 +166,7 @@
 @media screen and (min-width: 1440px) {
   .section-hero {
     min-height: 800px;
+    max-width: 1440px;
     margin-top: -88px;
     background-image: url('../../img/02-hero/desk-1440-hero.jpg');
   }
@@ -201,7 +207,7 @@
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .section-hero {
-      min-height: 1600px;
+      min-height: 800px;
       background-image: url('../../img/02-hero/desk-1440-hero@2x.jpg');
     }
   }
