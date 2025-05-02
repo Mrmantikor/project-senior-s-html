@@ -29,8 +29,6 @@ your feedback, so feel free to share your thoughts and ideas!
 This project is our way of showcasing a passion for web development through
 clean code and thoughtful design. Take a look and let us know what you think! 🚀
 
-#WebDev #HTML #CSS #JavaScript #Vite #TeamProject
-
 ![Image](https://github.com/user-attachments/assets/fe1471bb-b129-4e7a-964c-5d9bdd22f9c0)
 
 ![Image](https://github.com/user-attachments/assets/e09aa4e2-5a4d-4ef4-b1c4-08d7b9860b61)
